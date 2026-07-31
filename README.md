@@ -9,7 +9,7 @@ This is my configuration for hardening Windows against Ransomware.
 
 1. Run regedit;
 
-2. For each single key in list below click with the right button of mouse, click on "authorizations", click on "advanced", on "authorizations" panel select "Users", YOURUSERNAME and "Administrators", "Disable hierarchy", the "Modify" and disable the "Full control" authorization;
+2. For each single key in list below click with the right button of mouse, click on "authorizations", click on "advanced", on "authorizations" panel select "Users", YOURUSERNAME and "Administrators", "Disable hierarchy", then click on "Modify" and disable the "Full control" authorization, click on "OK", "Apply" and "OK";
 
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 
