@@ -3,7 +3,7 @@ This is my configuration for hardening Windows against Ransomware.
 
 ## ⚠️WARNING⚠️!
 
-<strong>WHILE I'VE PERSONALLY TESTED THESE SETTINGS SUCCESSFULLY, IT'S POSSIBLE YOUR SYSTEM COULD BECOME UNSTABLE. I TAKE NO RESPONSIBILITY; PERFORM THESE CHANGES AT YOUR OWN RISK!</strong>
+<strong>WHILE I'VE PERSONALLY TESTED THESE SETTINGS SUCCESSFULLY, IT'S POSSIBLE YOUR SYSTEM COULD BECOME UNSTABLE. I TAKE NO RESPONSIBILITY; PERFORM THESE CHANGES AT YOUR OWN RISK! Use this in production</strong>
 
 ## SYSTEM REGISTER
 
@@ -76,3 +76,9 @@ This is my configuration for hardening Windows against Ransomware.
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OOBE
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths
+
+3. Reboot the system;
+
+## INFO:
+
+After this set
