@@ -29,6 +29,8 @@ This is my configuration for hardening Windows against Ransomware.
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32
+
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
