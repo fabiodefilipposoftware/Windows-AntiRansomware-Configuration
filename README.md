@@ -27,6 +27,8 @@ This is my configuration for hardening Windows against Ransomware.
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
 
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\ProgramData
+
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32
