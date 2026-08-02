@@ -15,9 +15,23 @@ This is configuration will stop persistence in Windows using hardening against R
 
 3. For each single key in list below click with the right button of mouse, click on Permissions", click on "Advanced", on "Permissions" panel select "Users", YOURUSERNAME and "Administrators" (ONLY PRE-EXISTING USERS), "Disable inheritance", then click on "Modify" and disable the "Full control" authorization (LEAVING "READ-ONLY" ENABLED), click on "OK", "Apply" and "OK";
 
+* HKEY_CLASSES_ROOT\http\shell\open\command
+
+* HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\URLSearchHooks
+
+* HKEY_CURRENT_USER\Environment
+
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
+
+* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+
+* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+
+* HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\ROOT\Certificates
+
+* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 
@@ -29,9 +43,9 @@ This is configuration will stop persistence in Windows using hardening against R
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
-* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASMANCS
+* HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASMANCS
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
 
@@ -39,25 +53,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASMANCS
 
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot
 
-* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
-
-* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings
-
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects
-
-* HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\URLSearchHooks
-
-* HKEY_CURRENT_USER\Environment
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\ROOT\Certificates
-
-* HKEY_CURRENT_USER\Software\Microsoft\SystemCertificates\ROOT\Certificates
 
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
 
@@ -69,15 +73,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Tracing\RASMANCS
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\
 
-* HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
-
 * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDLLs
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\RuntimeExceptionHelperModules
-
-* HKEY_CLASSES_ROOT\http\shell\open\command
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Protocols\Handler
 
