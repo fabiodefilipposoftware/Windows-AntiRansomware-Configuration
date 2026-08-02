@@ -85,5 +85,7 @@ This is configuration will stop persistence in Windows using hardening against R
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths
 
-4. Reboot the system;
+4. In Windows Security check if all desired folders are protected against Ransomware;
+
+5. Reboot the system;
 
