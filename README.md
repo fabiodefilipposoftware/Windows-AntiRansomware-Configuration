@@ -1,5 +1,5 @@
 # Windows-AntiRansomware-Configuration
-This is my configuration for hardening Windows against Ransomware.
+This is configuration will stop persistence in Windows using hardening against Ransomware.
 
 ## ⚠️WARNING⚠️!
 
