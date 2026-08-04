@@ -37,6 +37,8 @@ This is configuration will stop persistence in Windows using hardening against R
 
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies
 
+* HKLM\SOFTWARE\Policies\Microsoft\Windows
+
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 
 * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
