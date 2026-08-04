@@ -23,6 +23,10 @@ This is configuration will stop persistence in Windows using hardening against R
 
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 
+* HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+
+* HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
 
 * HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
